@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 app-root{
     --navBackground: coral;
-    position: absolute;
+    position: relative;
     inset: 0;
+}
+
+.main-container{
+    padding: 0;
+    margin: 0;
 }

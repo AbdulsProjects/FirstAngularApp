@@ -1,0 +1,54 @@
+.game-display{
+    padding: 0;
+    margin: auto;
+    border: 1px black;
+    border-style: solid;
+    height: 540px;
+    width: 840px;
+    margin-top: 50px;
+}
+
+.row{
+    height: 90px;
+    left: 0;
+    right: 0;
+    position: relative;
+    background: rgb(50, 50, 221);
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 112px;
+    height: 65px;
+    top: 10px;
+    position: relative;
+}
+
+.slot{
+    height: 100%;
+    background-color: rgb(69, 69, 233);
+    width: 120px;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+input[type=checkbox]{
+    opacity: 0;
+    cursor: pointer;
+    width: 0;
+    margin: 0;
+    float: left;
+}
+
+.input-slot-label{
+    position: relative;
+    height: 70%;
+    width: 70%;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: auto;
+}

@@ -1,22 +1,24 @@
 header{
     background: var(--navBackground);
     text-align: center;
-    position: fixed;
     width: 100%;
-    z-index: 10;
+    position:relative;
+}
+
+header h1{
+    margin: 0;
 }
 
 nav{
     background: var(--navBackground);
-    position: absolute;
+    position:absolute;
     text-align: left;
-    top: 100%;
     left: 0;
     width: 100%;
-    /* display: none; */
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 300ms ease-in-out;
+    z-index: 1;
 }
 
 nav ul{
@@ -58,10 +60,10 @@ nav a:hover{
 
 .nav-toggle-label{
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     margin-left: 1em;
-    height: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
 }
@@ -84,11 +86,11 @@ nav a:hover{
 }
 
 .nav-toggle-label::before{
-    bottom: 32px;
+    bottom: 2px;
 }
 
 .nav-toggle-label::after{
-    top: 32px;
+    top: 2px;
 }
 
 @media screen and (min-width: 1000px){
@@ -133,9 +135,9 @@ nav a:hover{
         content: '';
         display: block;
         height: 5px;
-        background: black;
+        background: whitesmoke;
         position: absolute;
-        top: -0.75em;
+        top: -0.28em;
         inset-inline: 0;
         transform: scale(0,1);
         transition: transform ease-in-out 250ms;
