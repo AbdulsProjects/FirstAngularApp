@@ -1,0 +1,13 @@
+.main-container{
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrench-image{
+    height: 25vh;
+    position: absolute;
+    top: 25vh;
+}

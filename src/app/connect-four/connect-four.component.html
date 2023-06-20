@@ -1,7 +1,7 @@
 <div class="game-display">
     <div class="row" *ngFor="let row of rows; let i = index">
         <div class="slot" *ngFor="let column of columns; let j = index">
-            <input type="checkbox" id="slot{{ i*7 + j }}">
+            <input type="button" id="slot{{ i*7 + j }}" (click)="dropDisc(i*7 + j)">
             <label for="slot{{ i*7 + j }}" class="input-slot-label"></label>
         </div>
     </div>

@@ -35,9 +35,8 @@ input[type=radio]{
     border-radius: 15%;
 }
 
-input[type=checkbox]{
+input[type=button]{
     opacity: 0;
-    cursor: pointer;
     width: 0;
     margin: 0;
     float: left;

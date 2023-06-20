@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ConnectFourComponent } from './connect-four/connect-four.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConnectFourComponent,
-    PlaceholderComponent
+    PlaceholderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

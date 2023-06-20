@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class ConnectFourComponent {
   rows = new Array(6);
   columns = new Array(7);
+
+  dropDisc(slotNum: number): void{
+    alert(slotNum);
+  }
+
+
 }
